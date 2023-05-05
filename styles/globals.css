@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -133,6 +135,49 @@ to{
   opacity: 1;
 }
 }
-
-
 /* PAGE EFFECT */
+
+/* SIDE MENU start */
+.side-menu{
+  background: #fff;
+  width: 300px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  transition: 0.9s;
+}
+.side-menu.active{
+  right: 0;
+  transition: 950ms;
+  --webkit-transition: 950ms;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.closeIcon{
+  color: #171a20;
+  align-self: end;
+  transition: 0.5s ease;
+}
+.closeIcon:hover{
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+.hamburgerLinks{
+  cursor: pointer;
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-family: 600;
+  transition: 0.5s ease;
+  -webkit-transition: 0.5s ease;
+  padding: 15px;
+  border-radius: 10px;
+}
+.hamburgerLinks:hover{
+  background: #b3b7bd48;
+}
+
+/* SIDE MENU close */

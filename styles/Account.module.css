@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.logInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px;
+}
+.signOutBtn{
+    display: flex;
+    justify-content: center;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: #68696D;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+.carPurchase{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 30px;
+}
+.btnMain{
+    display: flex;
+}
+.btnMain > .btn{
+    background: #3e6ae1;
+    color:  #fff;
+    width: 256px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 20px;
+    margin: 10px;
+    opacity: 0.9;
+}
+.modelX{
+    width: 80%;
+}
+.btn:nth-child(2){
+    background: transparent;
+    border: 2px solid rgba(23, 26, 32, 0.8);
+    color: rgba(26, 34, 49, 0.8);
+}

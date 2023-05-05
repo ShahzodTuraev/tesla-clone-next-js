@@ -5,7 +5,7 @@ import logo from '../public/images/logo.svg'
 import Image from 'next/image';
 import { Sidebar } from './Sidebar';
 import CloseIcon from '@mui/icons-material/Close'
-const Navbar = () => {
+const AccountNavbar = () => {
     const [sidebar, setSidebar] = useState(false)
     const showSidebar = () => setSidebar(!sidebar)
   return (
@@ -38,7 +38,7 @@ const Navbar = () => {
                 <a href='#' className={styles.itemsLink}>Shop</a>
             </li>
             <li className={styles.items}>
-                <Link href={'/sign_in'}>Account</Link>
+                <Link href={'/teslaaccount'}>Account</Link>
             </li>
             <li onClick={showSidebar} className={styles.items}>
                 Menu
@@ -63,4 +63,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default AccountNavbar

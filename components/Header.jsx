@@ -19,8 +19,8 @@ const Header = () => {
                     <a href="#" className={styles.btn}>existing inventory</a>
                 </div>
             </div>
-            <img src="/images/down-arrow.svg" className={styles.downIcon} alt="down icon" />
         </Reveal>
+            <img src="/images/down-arrow.svg" className={styles.downIcon} alt="down icon" />
       
     </secton>
   )
