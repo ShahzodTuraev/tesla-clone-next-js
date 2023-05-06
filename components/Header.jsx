@@ -1,8 +1,10 @@
 import React from 'react'
 import styles from '../styles/Home.module.css'
+import Navbar from './Navbar'
 const Header = () => {
   return (
     <secton className={styles.section}>
+        <Navbar/>
         <div className='fadeInUp'>
             <div className={styles.textsArea}>
                 <h3>Module 3</h3>
