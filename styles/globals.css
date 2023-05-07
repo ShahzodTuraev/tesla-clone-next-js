@@ -181,3 +181,14 @@ to{
 }
 
 /* SIDE MENU close */
+
+/* FOOTER */
+.footer{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.footer > a {
+  color: rgb(0, 128, 255);
+  text-decoration: underline;
+} 

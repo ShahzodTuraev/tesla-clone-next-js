@@ -9,9 +9,6 @@
     padding: 5px 45px;
     background: transparent;
     width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
 }
 .teslaLogo {
     width: 130px;
@@ -48,37 +45,37 @@
     display: grid;
     place-items: center ;
 }
-.section:nth-child(3){
+.section:nth-child(2){
     background: url(../public/images/model-y.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
     background-position: center;
 }
-.section:nth-child(4){
+.section:nth-child(3){
     background: url(../public/images/model-s.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
     background-position: center;
 }
-.section:nth-child(5){
+.section:nth-child(4){
     background: url(../public/images/model-x.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
     background-position: center;
 }
-.section:nth-child(6){
+.section:nth-child(5){
     background: url(../public/images/solar-panel.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
     background-position: center;
 }
-.section:nth-child(7){
+.section:nth-child(6){
     background: url(../public/images/solar-roof.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
     background-position: center;
 }
-.section:nth-child(8){
+.section:nth-child(7){
     background: url(../public/images/accessories.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
@@ -135,7 +132,16 @@
     background-color: #fff;
     color: #171A20CC;
 }
-
+.topIcon{
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+}
+.topIcon > img{
+    height: 50px;
+    width: 50px;
+    border: 2px solid rgb(56, 56, 56);
+}
 .downIcon{
     height: 40px;
     animation: downIconAnim 1.5s ease 0s infinite normal none running;

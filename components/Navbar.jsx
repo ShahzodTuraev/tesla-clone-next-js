@@ -6,6 +6,13 @@ import Image from 'next/image';
 import { Sidebar } from './Sidebar';
 import CloseIcon from '@mui/icons-material/Close'
 const Navbar = () => {
+    const onClick =()=>{
+        window.scrollTo({
+            bottom: 0,
+            left: 0,
+            behavior: 'smooth'
+        })
+    }
     const [sidebar, setSidebar] = useState(false)
     const showSidebar = () => setSidebar(!sidebar)
   return (
@@ -15,27 +22,27 @@ const Navbar = () => {
         </Link>
         <ul className={styles.navbarNav}>
             <li className={styles.items}>
-                <a href='#' className={styles.itemsLink}>Model S</a>
+                <Link href='/model_s' className={styles.itemsLink}>Model S</Link>
             </li>
             <li className={styles.items}>
-                <a href='#' className={styles.itemsLink}>Model 3</a>
+                <Link href='/' onClick={onClick} className={styles.itemsLink}>Model 3</Link>
             </li>
             <li className={styles.items}>
-                <a href='#' className={styles.itemsLink}>Model X</a>
+                <Link href='model_x' className={styles.itemsLink}>Model X</Link>
             </li>
             <li className={styles.items}>
-                <a href='#' className={styles.itemsLink}>Model Y</a>
+                <Link href='model_y' className={styles.itemsLink}>Model Y</Link>
             </li>
             <li className={styles.items}>
-                <a href='#' className={styles.itemsLink}>Solar Roof</a>
+                <Link href='solar_roof' className={styles.itemsLink}>Solar Roof</Link>
             </li>
             <li className={styles.items}>
-                <a href='#' className={styles.itemsLink}>Solar Panels</a>
+                <Link href='solar_panel' className={styles.itemsLink}>Solar Panels</Link>
             </li>
         </ul>
         <div className={styles.menu}>
             <li className={styles.items}>
-                <a href='#' className={styles.itemsLink}>Shop</a>
+                <Link href='#' className={styles.itemsLink}>Shop</Link>
             </li>
             <li className={styles.items}>
                 <Link href={'/sign_in'}>Account</Link>
