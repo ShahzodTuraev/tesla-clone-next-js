@@ -1,18 +1,14 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import styles from '../styles/Home.module.css'
 import Link from 'next/link';
 import logo from '../public/images/logo.svg'
 import Image from 'next/image';
 import { Sidebar } from './Sidebar';
-import CloseIcon from '@mui/icons-material/Close'
+import CloseIcon from '@mui/icons-material/Close';
 const Navbar = () => {
-    const onClick =()=>{
-        window.scrollTo({
-            bottom: 0,
-            left: 0,
-            behavior: 'smooth'
-        })
-    }
+
+
+
     const [sidebar, setSidebar] = useState(false)
     const showSidebar = () => setSidebar(!sidebar)
   return (
@@ -22,22 +18,22 @@ const Navbar = () => {
         </Link>
         <ul className={styles.navbarNav}>
             <li className={styles.items}>
-                <Link href='/model_s' className={styles.itemsLink}>Model S</Link>
+                <Link href='/#model_s' className={styles.itemsLink}>Model S</Link>
             </li>
             <li className={styles.items}>
-                <Link href='/' onClick={onClick} className={styles.itemsLink}>Model 3</Link>
+                <Link href='/'  className={styles.itemsLink}>Model 3</Link>
             </li>
             <li className={styles.items}>
-                <Link href='model_x' className={styles.itemsLink}>Model X</Link>
+                <Link href='/#model_x'  className={styles.itemsLink}>Model X</Link>
             </li>
             <li className={styles.items}>
-                <Link href='model_y' className={styles.itemsLink}>Model Y</Link>
+                <Link href='/#model_y' className={styles.itemsLink}>Model Y</Link>
             </li>
             <li className={styles.items}>
-                <Link href='solar_roof' className={styles.itemsLink}>Solar Roof</Link>
+                <Link href='/#solar_roof' className={styles.itemsLink}>Solar Roof</Link>
             </li>
             <li className={styles.items}>
-                <Link href='solar_panel' className={styles.itemsLink}>Solar Panels</Link>
+                <Link href='/#solar_panels' className={styles.itemsLink}>Solar Panels</Link>
             </li>
         </ul>
         <div className={styles.menu}>

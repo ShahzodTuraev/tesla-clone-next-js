@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 
 const SolarPanels = () => {
   return (
-    <secton className={styles.section}>
+    <secton id='solar_panels' className={styles.section}>
             <div className={styles.textsArea}>
                 <h3>Solar Panels</h3>
                 <p>Lowest Cost Solar Panels in America</p>

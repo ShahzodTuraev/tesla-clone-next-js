@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 
 const SolarRoof = () => {
   return (
-    <secton className={styles.section}>
+    <secton id='solar_roof' className={styles.section}>
             <div className={styles.textsArea}>
                 <h3>Solar Roof</h3>
                 <p>Produce Clean Energy From Your Roof</p>

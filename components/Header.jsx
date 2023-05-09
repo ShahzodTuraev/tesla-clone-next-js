@@ -1,8 +1,13 @@
 import React from 'react'
 import styles from '../styles/Home.module.css'
 import Navbar from './Navbar'
-import page from './Navbar'
+import { useRouter } from 'next/router'
 const Header = () => {
+    const router = useRouter()
+    const {
+        query: {id}
+    } = router
+    const prop ={id}
     const onScroll =()=>{
         window.scrollTo({
             top: 0,
@@ -13,9 +18,10 @@ const Header = () => {
   return (
     <secton className={styles.section}>
             <Navbar/>
+            <h1>{prop.id}</h1>
         <div className='fadeInUp'>
             <div className={styles.textsArea}>
-                <h3>Module 3 {page}</h3>
+                <h3>Module 3 </h3>
                 <p>Order online for <span className={styles.touchless}>Touchless delivery</span></p>
             </div>
         </div>
@@ -25,7 +31,7 @@ const Header = () => {
                     <a href="#" className={styles.btn}>order now</a>
                 </div>
                 <div className={styles.btnMain}>
-                    <a href="#" className={styles.btn}>demo drive</a>
+                    <a href="/drive" className={styles.btn}>demo drive</a>
                 </div>
             </div>
         </div>

@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Head from 'next/head';
 import styles from '../styles/sidebar pages style/Drive.module.css'
 import Image from 'next/image';
 import model_3 from '../public/images/drive page/model 3.jpg'
@@ -19,6 +20,10 @@ const Drive = () => {
   const [id, setId] = useState()
   return (
     <>
+    <Head>
+      <title>Demo Drive</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+    </Head>
     <Navbar/>
     <div className={styles.container}>
       <h2 className={styles.title}>Schedule a Demo Drive</h2>

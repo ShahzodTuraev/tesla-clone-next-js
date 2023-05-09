@@ -1,6 +1,7 @@
 import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
 import React from 'react'
+import Head from 'next/head';
 import { Carousel } from 'antd';
 const contentStyle = {
   height: '160px',
@@ -13,6 +14,10 @@ const contentStyle = {
 const Shop = () => {
   return (
     <>
+      <Head>
+        <title>Shop</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+      </Head>
       <Navbar/>
       
       <Carousel autoplay>

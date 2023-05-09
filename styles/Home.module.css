@@ -6,9 +6,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 45px;
+    padding: 25px 45px 0 45px;
     background: transparent;
     width: 100%;
+
 }
 .teslaLogo {
     width: 130px;
