@@ -38,7 +38,7 @@ const Navbar = () => {
         </ul>
         <div className={styles.menu}>
             <li className={styles.items}>
-                <Link href='#' className={styles.itemsLink}>Shop</Link>
+                <Link href='/shop' className={styles.itemsLink}>Shop</Link>
             </li>
             <li className={styles.items}>
                 <Link href={'/sign_in'}>Account</Link>
