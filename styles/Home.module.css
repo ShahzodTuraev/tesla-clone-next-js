@@ -127,6 +127,7 @@
     border-radius: 20px;
     opacity: 0.9;
     margin: 0 10px;
+    cursor: pointer;
 }
 
 .btnMain:nth-child(2)>.btn{

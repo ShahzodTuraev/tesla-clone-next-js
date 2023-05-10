@@ -1,7 +1,14 @@
 import React from 'react'
 import styles from '../styles/Home.module.css'
-
+import Router from 'next/router'
 const ModelS = () => {
+  const dataId = 1
+    function sentProp(){
+        Router.push({
+            pathname: 'order_model',
+            query: {dataId}
+        })
+    }
   return (
     <secton className={styles.section}>
             <div id='model_s' className={styles.textsArea}>
@@ -10,7 +17,7 @@ const ModelS = () => {
             </div>
             <div className={styles.buttons}>
                 <div className={styles.btnMain}>
-                    <a href="#" className={styles.btn}>order now</a>
+                    <p onClick={()=>sentProp()} className={styles.btn}>order now</p>
                 </div>
                 <div className={styles.btnMain}>
                     <a href="/drive" className={styles.btn}>demo drive</a>

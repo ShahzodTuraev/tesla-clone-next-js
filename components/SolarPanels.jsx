@@ -10,10 +10,10 @@ const SolarPanels = () => {
             </div>
             <div className={styles.buttons}>
                 <div className={styles.btnMain}>
-                    <a href="#" className={styles.btn}>order now</a>
+                    <a href="/sign_in" className={styles.btn}>order now</a>
                 </div>
                 <div className={styles.btnMain}>
-                    <a href="#" className={styles.btn}>learn more</a>
+                    <a href="/solar_panels" className={styles.btn}>learn more</a>
                 </div>
             </div>
     </secton>

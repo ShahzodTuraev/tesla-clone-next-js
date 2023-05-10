@@ -1,42 +1,37 @@
 export const Sidebar = [
     {
-        title: 'Existing Inventory',
-        path: '/inventory',
-        cName: 'sideText'
-    },
-    {
         title: 'Demo Drive',
         path: '/drive',
         cName: 'sideText'
     },
     {
-        title: 'Cybertruck',
-        path: '/cybertruck',
+        title: 'Model S',
+        path: '/#model_s',
         cName: 'sideText'
     },
     {
-        title: 'Semi',
-        path: '/sami',
+        title: 'Model 3',
+        path: '/',
         cName: 'sideText'
     },
     {
-        title: 'Charging',
-        path: '/charging',
+        title: 'Model X',
+        path: '/#model_x',
         cName: 'sideText'
     },
     {
-        title: 'Utilities',
-        path: '/utilities',
+        title: 'Model Y',
+        path: '/#model_v',
         cName: 'sideText'
     },
     {
-        title: 'Events',
-        path: '/event',
+        title: 'Solar Panels',
+        path: '/#solar_panels',
         cName: 'sideText'
     },
     {
-        title: 'Support',
-        path: '/support',
+        title: 'Solar Roof',
+        path: '/#solar_roof',
         cName: 'sideText'
     },
 ]

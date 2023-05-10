@@ -33,7 +33,7 @@ const Register = () => {
   return (
     <>
     <Head>
-      <title>Sign Up</title>
+      <title>Sign Up | Tesla Clone</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
     </Head>
     <Navbar/>

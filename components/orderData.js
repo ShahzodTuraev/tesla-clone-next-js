@@ -20,9 +20,9 @@ export const data =[
             model33
         ], 
         type: [
-            {name: 'Model 3', mi: '272', mph: '140', sec: '5.8', price: '$40,240'},
-            {name: 'Model 3 Long Range', mi: '325+', mph: '145', sec: '4.2', price: '$47,240'},
-            {name: 'Model 3 Performance', mi: '315', mph: '162', sec: '3.1', price: '$53,240'},
+            {id: 1, name: 'Model 3', mi: '272', mph: '140', sec: '5.8', price: '$40,240'},
+            {id: 2, name: 'Model 3 Long Range', mi: '325+', mph: '145', sec: '4.2', price: '$47,240'},
+            {id: 3, name: 'Model 3 Performance', mi: '315', mph: '162', sec: '3.1', price: '$53,240'},
             ]
     },
     {
@@ -34,8 +34,8 @@ export const data =[
             models3
         ], 
         type: [
-            {name: 'Model S', mi: '405', mph: '149', sec: '3.1', price: '$87,490'},
-            {name: 'Model S Plaid', mi: '396', mph: '200', sec: '1.99', price: '$107,490'},
+            {id: 1, name: 'Model S', mi: '405', mph: '149', sec: '3.1', price: '$87,490'},
+            {id: 2, name: 'Model S Plaid', mi: '396', mph: '200', sec: '1.99', price: '$107,490'},
             ]
     },
     {
@@ -47,8 +47,8 @@ export const data =[
             modelx3,
         ], 
         type: [
-            {id: 31, name: 'Model X', mi: '348', mph: '149', sec: '3.8', price: '$97,490'},
-            {id: 32, name: 'Model X Plaid', mi: '333', mph: '149', sec: '2.5', price: '$107,490'},
+            {id: 1, name: 'Model X', mi: '348', mph: '149', sec: '3.8', price: '$97,490'},
+            {id: 2, name: 'Model X Plaid', mi: '333', mph: '149', sec: '2.5', price: '$107,490'},
             ]
     },
     {
@@ -56,13 +56,13 @@ export const data =[
         name: 'Module Y', 
         src: [
             modely1, 
-            modely2, 
             modely3,
+            modely2, 
         ], 
         type: [
-            {name: 'Model Y', mi: '279', mph: '135', sec: '5.0', price: '$47,240'},
-            {name: 'Model Y Long Range', mi: '350', mph: '135', sec: '4.8', price: '$50,240'},
-            {name: 'Model Y Performance', mi: '303', mph: '155', sec: '3.5', price: '$54,240'},
+            {id: 1, name: 'Model Y', mi: '279', mph: '135', sec: '5.0', price: '$47,240'},
+            {id: 2, name: 'Model Y Long Range', mi: '350', mph: '135', sec: '4.8', price: '$50,240'},
+            {id: 3, name: 'Model Y Performance', mi: '303', mph: '155', sec: '3.5', price: '$54,240'},
             ]
     },
     
