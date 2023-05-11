@@ -34,4 +34,15 @@ export const Sidebar = [
         path: '/#solar_roof',
         cName: 'sideText'
     },
+    {
+        title: 'Shop',
+        path: '/shop',
+        cName: 'sideText'
+    },
+    {
+        title: 'Account',
+        path: '/sign_in',
+        cName: 'sideText'
+    },
+    
 ]

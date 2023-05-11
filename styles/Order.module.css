@@ -82,6 +82,7 @@
     cursor: pointer;
 }
 .image{position: relative; }
+.imageMobile{display: none;}
 .right{
     z-index: 1;
     display: none;
@@ -105,4 +106,26 @@
     height: 35px;
     border-radius: 50%;
     cursor: pointer;
+}
+@media screen and (max-width: 414px) {
+    .main{
+        flex-direction: column;
+        align-items: center;
+    }
+    .image{display: none;}
+    .imageMobile{display:block;}
+    .images{
+        width: 100%;
+        height: auto;
+    }
+    .left{display: block; top: 33%;}
+    .right{display: block; top: 33%;}
+    .textBox{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+    }
+    .featureBox{width: 100%;}
 }

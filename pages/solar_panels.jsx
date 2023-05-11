@@ -18,13 +18,14 @@ const Solar_panels = () => {
             <div className={styles.textBox}>
                 <p>Solar Panels</p>
                 <h2>Electricity For Less</h2>
+                <Image className={styles.imageMobile} src={img} alt='solar img' width={800}/>
                 <p>Use solar energy to power your home and reduce your dependence on the grid. Purchase solar at the lowest price of any national provider with Tesla's price match guarantee and take control of your monthly electricity bill. Schedule a virtual consultation with a Tesla Advisor to learn more.</p>
                 <Link href={'/sign_in'}>
                     <button>Order Now</button>
                 </Link>
                 <a target='_blank' className={styles.link} href="https://www.tesla.com/solarpanels">Learn More</a>
             </div>
-            <Image src={img} alt='solar img' width={800}/>
+            <Image className={styles.image} src={img} alt='solar img' width={800}/>
         </div>
         <Footer/>
     </div>

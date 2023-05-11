@@ -192,3 +192,12 @@ to{
   color: rgb(0, 128, 255);
   text-decoration: underline;
 } 
+
+.hamburgerLinks:nth-child(8){display: none;}
+.hamburgerLinks:nth-child(9){display: none;}
+@media screen and (max-width: 414px) {
+  .hamburgerLinks{font-size: 1.2rem;}
+  .hamburgerLinks:nth-child(8){display: block;}
+  .hamburgerLinks:nth-child(9){display: block;}
+
+}

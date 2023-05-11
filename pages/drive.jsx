@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Head from 'next/head';
-import styles from '../styles/sidebar pages style/Drive.module.css'
+import styles from '../styles/Drive.module.css'
 import Image from 'next/image';
 import model_3 from '../public/images/drive page/model 3.jpg'
 import model_s from '../public/images/drive page/model S.jpg'
@@ -43,7 +43,7 @@ const Drive = () => {
           ))
         }
         </div>
-        <Image src={data[id? id-1 : 0 ].src} width={644} alt="tesla" loading='lazy'/>
+        <Image className={styles.image} src={data[id? id-1 : 0 ].src} width={644} alt="tesla" loading='lazy'/>
       </div>
         <h3 className={styles.contactTitle}>Contact Information</h3>
         <form className={styles.contactForm}>

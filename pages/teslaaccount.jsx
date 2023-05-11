@@ -4,6 +4,7 @@ import { useAuth } from '@/context/authUserContext';
 import Head from 'next/head';
 import styles from '../styles/Account.module.css'
 import AccountNavbar from '@/components/AccountNavbar';
+import Footer from '@/components/Footer';
 
 const LoggedIn = () => {
     const {authUser, loading, signOut} = useAuth()
@@ -34,14 +35,15 @@ const LoggedIn = () => {
                 <img src="/images/modelX.png" alt="Model X" className={styles.modelX} />
                 <h1>Model X</h1>
                 <div className={styles.btnMain}>
-                    <a href='#' className={styles.btn}>
-                        custom order
+                    <a href='https://www.tesla.com/modelx' className={styles.btn}>
+                        order now
                     </a>
-                    <a href='#' className={styles.btn}>
-                        existing inventory
+                    <a href='/drive' className={styles.btn}>
+                        demo drive
                     </a>
                 </div>
             </div>
+            <Footer/>
         </>
       }
     </>

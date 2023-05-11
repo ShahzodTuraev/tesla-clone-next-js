@@ -18,13 +18,14 @@ const Solar_panels = () => {
             <div className={styles.textBox}>
                 <p>Solar Roof</p>
                 <h2>Protection Against Outages</h2>
+                <Image className={styles.imageMobile} src={img} alt='solar img' width={800}/>
                 <p>Powerwall is a compact home battery that is bundled with Solar Roof, providing you with 24/7 energy security. It stores the energy you produce with Solar Roof so you can power your home anytime—at night or during an outage.</p>
                 <Link href={'/sign_in'}>
                     <button>Order Now</button>
                 </Link>
                 <a target='_blank' className={styles.link} href="https://www.tesla.com/solarroof">Learn More</a>
             </div>
-            <Image src={img} alt='solar img' width={800}/>
+            <Image className={styles.image} src={img} alt='solar img' width={800}/>
         </div>
         <Footer/>
     </div>

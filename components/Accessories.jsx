@@ -10,7 +10,7 @@ const Accessories = () => {
           </div>
         <div className={styles.buttons}>
             <div className={styles.btnMain}>
-                <a href="#" className={styles.btn}>shop now</a>
+                <a href="/shop" className={styles.btn}>shop now</a>
             </div>
         </div>
         <Footer/>

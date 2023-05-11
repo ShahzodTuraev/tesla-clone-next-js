@@ -48,3 +48,22 @@
     font-size: 1rem;
     font-weight: 500;
 }
+.imageMobile{display: none;}
+@media screen and (max-width: 414px) {
+ .main{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+ }
+ .image{display: none;}
+ .imageMobile{
+    display: block;
+    width: 98%;
+    height: auto;
+    margin: 20px 0;
+ }
+ .textBox{
+    align-items: center;
+ }
+}

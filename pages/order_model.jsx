@@ -44,13 +44,20 @@ const order_model = () => {
       <Navbar/>
         <div className={styles.main}>
             <div className={styles.image}>
-                <Image onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}  src = {data[point].src[img]} alt='model' width={800}  />
+                <Image onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}  src = {data[point].src[img]} alt='model' className={styles.images} width={800}  />
                 <img onMouseEnter={mouseEnter} style={{display: visible}} onClick={onLeft} className={styles.left} src="/icons/left-dir.svg" alt="left" />
                 <img onMouseEnter={mouseEnter} style={{display: visible}} onClick={onRight} className={styles.right} src="/icons/right-dir.svg" alt="right" />
             </div>
             <div className={styles.textBox}>
                 <h2 className={styles.title}>{data[point].name}</h2>
                 <p className={styles.deadline}>Est. Delivery: Jun – Jul 2023</p>
+            
+            <div className={styles.imageMobile}>
+                <Image onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}  src = {data[point].src[img]} alt='model' className={styles.images} width={800}  />
+                <img onMouseEnter={mouseEnter} style={{display: visible}} onClick={onLeft} className={styles.left} src="/icons/left-dir.svg" alt="left" />
+                <img onMouseEnter={mouseEnter} style={{display: visible}} onClick={onRight} className={styles.right} src="/icons/right-dir.svg" alt="right" />
+            </div>
+            
                 <hr />
                 <div className={styles.featureBox}>
                     <div>
