@@ -203,11 +203,8 @@ to{
   .hamburgerLinks:nth-child(9){display: block;}
   .closeIcon{
     align-self: center;
-    width: 55px;
+    width: 60px;
     height: auto;
-    border-radius: 50%;
-    padding: 8px;
-    background: rgba(0, 0, 0, 0.1);
     margin: 20px 0;
   }
 }
