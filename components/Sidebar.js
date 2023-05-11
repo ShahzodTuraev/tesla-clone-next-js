@@ -21,7 +21,7 @@ export const Sidebar = [
     },
     {
         title: 'Model Y',
-        path: '/#model_v',
+        path: '/#model_y',
         cName: 'sideText'
     },
     {
