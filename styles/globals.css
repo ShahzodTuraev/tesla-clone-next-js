@@ -201,5 +201,13 @@ to{
   .hamburgerLinks{font-size: 1.2rem;}
   .hamburgerLinks:nth-child(8){display: block;}
   .hamburgerLinks:nth-child(9){display: block;}
-
+  .closeIcon{
+    align-self: center;
+    width: 55px;
+    height: auto;
+    border-radius: 50%;
+    padding: 8px;
+    background: rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+  }
 }
