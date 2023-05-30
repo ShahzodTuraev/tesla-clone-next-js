@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import styles from '../styles/Home.module.css'
 import Link from 'next/link';
 import logo from '../public/images/logo.svg'
@@ -37,6 +37,9 @@ const Navbar = () => {
             </li>
         </ul>
         <div className={styles.menu}>
+            <li className={styles.items}>
+                <Link href='/#contacts' className={styles.itemsLink}>Contacts</Link>
+            </li>
             <li className={styles.items}>
                 <Link href='/shop' className={styles.itemsLink}>Shop</Link>
             </li>

@@ -6,6 +6,7 @@ import ModelX from "@/components/ModelX";
 import SolarPanels from "@/components/SolarPanels";
 import SolarRoof from "@/components/SolarRoof";
 import Accessories from "@/components/Accessories";
+import Footer from "@/components/Footer";
 export default function Home() {
   return(
     <>
@@ -21,6 +22,7 @@ export default function Home() {
       <SolarPanels/>
       <SolarRoof/>
       <Accessories/>
+      <Footer/>
     </>
   )
 }

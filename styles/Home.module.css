@@ -76,7 +76,9 @@
     background-size: cover;
     background-position: center;
 }
-/* .section:nth-child(3)>.textsArea{ margin-bottom: 320px;} */
+.section:nth-child(8){
+    background: #fdfdfd;
+}
 
 .textsArea{
     margin-top: 50px;
